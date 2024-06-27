@@ -30,8 +30,8 @@ phases:
     commands:
       - echo "Build Completed Successfully!"
       
-        # artifacts:
-        #  files:
-        #    - '**/*'
+artifacts:
+  files:
+    - '**/*'
     
-        #  base-directory: /simple-python-app-result
+  base-directory: simple-python-flask-app
